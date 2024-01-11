@@ -1,0 +1,140 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.main-heading {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    margin-left: 50px;
+  }
+}
+
+.input-label {
+  color: 475569;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .input-label {
+    margin-left: 50px;
+  }
+}
+
+.input-image-container {
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 768px) {
+  .input-image-container {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+  }
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  order: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .input-container {
+    width: 28%;
+    margin-top: 50px;
+    min-width: 300px;
+    order: 0;
+    align-self: flex-start;
+  }
+}
+
+.input-name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  height: 40px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+}
+
+.input-review {
+  font-family: 'Roboto';
+  font-size: 16px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+}
+
+.image {
+  height: 200px;
+  width: 280px;
+  order: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    height: 300px;
+    width: 380px;
+    order: 1;
+  }
+}
+
+.button {
+  border-radius: 5px;
+  background-color: #0284c7;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 16px;
+  cursor: pointer;
+  align-self: flex-start;
+  margin-top: 10px;
+  border: none;
+  min-width: 60px;
+}
+
+.comments-count {
+  color: #475569;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .comments-count {
+    margin-left: 50px;
+  }
+}
+
+.span-count {
+  color: #ffffff;
+  background-color: #0284c7;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.list-class {
+  list-style-type: none;
+}
